@@ -74,12 +74,11 @@ padding-bottom: 20px;
 }
 .hero-container {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 .hero {
     background-image: url("../media/banner.jpg");
     background-size: cover;
-    /* background-position: center; */
     height: 90vh;
     font-size: 25px;
     width: 100%;
@@ -87,7 +86,6 @@ padding-bottom: 20px;
     top: 0;
 }
 .socialmedia-link {
-    /* width: 20%; */
     justify-content: center;
 }
 .socialmedia-link a i {
@@ -168,11 +166,12 @@ h2 {
     border-radius: 10px;
     border: none;
 }
-.service {
-    flex-direction: column;
-}
+
 .service-line {
-    width: 50%;
+    width: 17%;
+}
+.service-logo {
+    /* justify-content: space-between; */
 }
 .box {
     height: 300px;
@@ -180,9 +179,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 45px;
 }
-.box a {
+.box i {
     color: white;
     font-size: 40px;
 }
@@ -213,7 +211,7 @@ h2 {
     width: 100%;
 }
 .portfolio-line {
-    width: 15%;
+    width: 19%;
 }
 .our-team-image img {
     width: 22%;
@@ -221,7 +219,7 @@ h2 {
     padding-left: 2% ;
 }
 .team-line {
-    width: 10%;
+    width: 12%;
 }
 .design-skill-heading {
     font-style: italic;
@@ -398,7 +396,6 @@ h5 {
      color: white;
      border-radius: 50%;
      border: 3px solid white;
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,12 +404,6 @@ h5 {
      width: 60%;
      margin-left: 38%;
  }
- /* .gallery-section-image {
-     flex-direction: column;
-     flex-wrap: wrap;
-     height: 380vh;
-     justify-content: start;
- } */
  .gallery-section-image img {
      width: 100%;
  }
